@@ -1,44 +1,13 @@
 @media screen and (max-width: 953px) {
 
-
-    .header-burger {
-        display: block;
-        position: relative;
-        width: 18px;
-        height: 20px;
-        z-index: 3;
-    }
-    .header-burger span {
-        position: absolute;
-        background-color: #eae6df;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        top: 9px;
-    }
-    .header-burger::before, .header-burger::after {
-        content: "";
-        background-color: #eae6df;
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        left: 0;
-    }
-    .header-burger::before {
-        top: 2px;
-    }
-    .header-burger::after {
-        bottom: 1px;
-    }
-    .header-burger.active::before {
-        background-color: #d4c8be;
-    }
-    .header-burger.active::after {
-        background-color: #d4c8be;
-    }
-    .header-burger.active span {
-        background-color: #d4c8be;
-    }
+    .header-burger {display: block;position: relative;width: 18px;height: 20px;z-index: 3}
+    .header-burger span {position: absolute;background-color: #eae6df;left: 0;width: 100%;height: 3px;top: 9px}
+    .header-burger::before, .header-burger::after {content: "";background-color: #eae6df;position: absolute;width: 100%;height: 3px;left: 0}
+    .header-burger::before {top: 2px}
+    .header-burger::after {bottom: 1px}
+    .header-burger.active::before {background-color: #d4c8be}
+    .header-burger.active::after {background-color: #d4c8be}
+    .header-burger.active span {background-color: #d4c8be}
     .header-menu {
         position: fixed;
         top: -100%;
@@ -57,40 +26,47 @@
 
     .section-list{display: none}
     .header-link b.arrow-down{display: none}
-
-
-    
+   
     .header-list {display: block}
     .header-list>li {margin: 0 0 20px 0}
-    .section-list{
-        position: relative;
-        left: 0;
-        top: 0;
-        }
-        .header-list .header-link {      
-            padding: 20px 0;
-        }
+    .section-list{position: relative;left: 0;top: 0}
+    .header-list .header-link {padding: 20px 0}
 
-        .subsection-photo {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 25px;
-}
+    .subsection-photo {width: 100%;text-align: center;margin-bottom: 25px}
         
-        .wrapper-section {display: block;}
-            .subsection-photo  .see-full{float:none;}
-            .subsection-photo h2{font-size: 22px;}
-            .subsection-photo p {margin-bottom: 30px}
-            .slider .slick-arrow {top: 80%}
+    .wrapper-section {display: block;}
+    .subsection-photo  .see-full{float:none;}
+    .subsection-photo h2{font-size: 22px;}
+    .subsection-photo p {margin-bottom: 30px}
+    .slider .slick-arrow {top: 80%}
 
 
-/*.wrapper-collections .wrapper-slider-mobile-only{display: block;}*/
-.wrapper-collections .collections-photographers {display: none;}
+    /*.wrapper-collections .wrapper-slider-mobile-only{display: block;}*/
+    .wrapper-collections .collections-photographers {display: none;}
+
+    .text-subject-photo .main-heading-subject-photo{font-size:38px}
+    .text-subject-photo .subheading-subject-photo{font-size:13px}
+
+    .wrapper-food-cosmetics .food-photo{width:100%;}
+    .wrapper-food-cosmetics .cosmetics-photo{width:100%}
+    .img-medicine{max-width:80%}
+
+    .wrapper-container-expensive-photo{flex-wrap:wrap}
+    .expensive-photo-img{width:80%;margin:0 auto;text-align:center}
+    .wrapper-container-expensive-photo .block-expensive-photo-text{width:80%;margin:0 auto}
+    .wrapper-container-expensive-photo .block-expensive-photo-text .expensive-photo-heading{padding:0 20px}
+    .wrapper-container-expensive-photo .block-expensive-photo-text p.expensive-photo-text{padding:0 20px}
 }
-
-
 
 @media screen and (max-width: 768px) {
-.slider{display: none}
-.form-reg #registr{font-size: 18px;}
+    .slider{display: none}
+    .form-reg #registr{font-size: 18px;}
+    .wrapper-sizes .block-sizes-img img{max-width:70%}
+}
+
+@media screen and (max-width:425px){
+    .wrapper-quality-wedding-book .img-quality-wedding-book .text-quality-wedding-book{font-size:18px}
+    .text-subject-photo .main-heading-subject-photo{font-size:30px}
+    .full-wrapper-btns-wedding-book .wrapper-btn-wedding-book .btn-wedding-book{letter-spacing:4px}
+    .wrapper-container-expensive-photo .block-expensive-photo-text .expensive-photo-heading{font-size: 34px}
 }

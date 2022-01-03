@@ -312,6 +312,7 @@ text-align: center;
     display: flex;
     background-color: #e7e0da;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .collections-photographers{
@@ -440,56 +441,68 @@ color: #9c7a58;
 .to-top:hover{background: #8B4513;opacity: 1}
 .arrow{position: absolute;left: 33%;top: 35%;bottom: auto;width: 10px;height: 10px;border-top: 4px solid #ffffff;border-right: 4px solid #ffffff}
 .arrow-top {transform: rotate(-45deg)} 
+ /*Styles for to top*/
 
   /*Styles for footer*/
 
  footer{padding-bottom:32px;position:relative;min-height:200px;min-width:320px;margin-top:100px;background:#1b1b1b}
- footer .wrapper-footer-menu{text-align: center;}
+ footer .wrapper-footer-menu{text-align: center}
  footer .wrapper-footer-menu .footer-menu li{list-style-type: none;text-align: center;width: 150px;line-height: 36px}
  footer .wrapper-footer-menu .footer-menu a{color: #ffffff;}
  .wrapper-nav-menu-footer .footer-menu{display: inline-flex; flex-wrap: wrap; justify-content: center;margin-top: 30px}
- .soc img{width: 25px;}
- .footer-submenu.soc{display: flex;}
+ .soc img{width: 25px}
+ .footer-submenu.soc{display: flex}
+ /*Styles for footer*/
  
 
   /*Styles for reg.html*/
 
-  .form-reg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-    
-    .form-reg label{
-           margin-bottom: 10px;
-    }
-    
-    .form-reg input {
-      border-radius: 5px;
-      border: 2px solid silver;
-      padding: 5px;
-      float: left;
-      clear: both;
-      margin-bottom: 10px;
-      background-color: #fafafa;
-    }
-    
-    .form-reg input:focus:focus{
-      border: 1px solid #666;
-    }
-    
-    
-    .form-reg #registr{
-    float: left;
-    padding: 10px;
-    background-color: #8B4513;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 28px;
-    color: #ffffff;
-    cursor: pointer;
-    }
-    
-    .form-reg #registr:hover{
-    background-color: #800000;
-    }
+  .articles{margin-top: 30px}
+
+  .form-reg {display: flex;flex-direction: column;align-items: center}
+  .form-reg label{margin-bottom: 10px}
+  .form-reg input {border-radius: 5px;border: 2px solid silver;padding: 5px;float: left;clear: both;margin-bottom: 10px;background-color: #fafafa}
+  .form-reg input:focus:focus{border: 1px solid #666}
+  .form-reg #registr{float: left;padding: 10px;background-color: #8B4513;border-radius: 5px;margin-top: 10px;font-size: 28px;color: #ffffff;cursor: pointer}
+  .form-reg #registr:hover{background-color: #800000}
+
+   /*Styles for reg.html*/
+
+.text-subject-photo .main-heading-subject-photo{font-size:54px; color:#6b6356; text-align:center;margin:0 0 20px 0;padding: 0 20px}
+.text-subject-photo .subheading-subject-photo{font-size:15px; color:#6b6356; text-align:center; text-transform:uppercase;letter-spacing:5px;line-height:1.8;margin:0;padding: 20px 3px}
+.text-subject-photo .text-description-subject-photo{font-size:16px; color:#6b6356; text-align:center;margin:0;padding:20px 20px 0}
+
+.wrapper-food-cosmetics{text-align: center;padding-top:60px}
+.wrapper-food-cosmetics .food-photo{width:50%;float:left}
+.wrapper-food-cosmetics .cosmetics-photo{width:50%;float:right}
+.heading-subject-photo{font-size:20px; color:#6b6356; font-weight:bold;margin-bottom:20px;margin-top:20px;padding: 0 20px}
+.text-subject-photo{font-size:16px; color:#6b6356;margin-bottom:20px;padding: 0 20px}
+.img-food, .img-cosmetics{max-width:80%;padding:0 20px}
+.medicine-photo{text-align:center;margin: 50px 0}
+.medicine-photo .medicine-photo-text{max-width: 66.667%;text-align: left;margin-left: auto;margin-right: auto;padding: 0 20px}
+.img-medicine{width:80%;padding:0 20px}
+.medicine-photo-text .medicine-heading, .medicine-photo-text .medicine-text{padding:0}
+
+.full-wrapper-btns-wedding-book .btn-wedding-book-account{margin:35px 0 120px}
+
+.wrapper-container-expensive-photo{display: flex}
+
+.wrapper-heading-covers{padding-top:60px;padding-bottom:30px}
+.wrapper-heading-covers .heading-covers{text-align:center;font-size:54px;color:#6b6356;margin:0}
+
+.wrapper-text-covers{padding-top:60px;padding-bottom:40px;width:66.667%;margin: 0 auto}
+.wrapper-text-covers .text-covers{text-align:center;font-size:14px;color:#6b6356;margin:0;line-height: 1.9}
+
+.wrapper-expensive-photo{background-color:#ffffff;padding-bottom: 20px;padding-top: 20px}
+.expensive-photo-img{width:50%}
+.expensive-photo-img img{max-width:100%}
+.wrapper-container-expensive-photo .block-expensive-photo-text{width:50%;text-align:center}
+.wrapper-container-expensive-photo .block-expensive-photo-text .expensive-photo-heading{font-size:36px;color:#6b6356;margin:30px 0 20px 0;padding:0 35px}
+.wrapper-container-expensive-photo .block-expensive-photo-text p.expensive-photo-text{margin:0 0 20px 0;font-size:15px;color:#6b6356;line-height: 1.7;padding:0 35px}
+
+/*Styles for history.html*/
+.heading-history{font-size:32px;text-align: center;margin: 16px 0;color:#8B4513}
+.text-history{font-size: 20px;text-align: justify}
+.img-history{width: 65%;padding: 20px 0}
+.figure-history{text-align: center;margin-bottom: 30px}
+/*Styles for history.html*/
