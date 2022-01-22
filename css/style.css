@@ -443,6 +443,13 @@ color: #9c7a58;
 .arrow-top {transform: rotate(-45deg)} 
  /*Styles for to top*/
 
+ /*Styles for 4 btns*/
+.wrapper-btns{display: flex;padding-top: 50px;justify-content: center;flex-wrap: wrap}
+.wrapper-btns .container-btn{text-align: center;margin-bottom: 50px; padding: 0 20px}
+.wrapper-btns .container-btn .btn-info{display: inline-block;position: relative;text-align: center;font-size: 12px;font-weight: 700;letter-spacing: 6px;color:#8B4513;text-decoration: none;border: 1px solid #8B4513;min-width: 220px;line-height: 45px;transition: .3s ease-in-out;padding: 0 20px; background-color: #fcfcfc}
+.wrapper-btns .container-btn .btn-info:hover{color: #ffffff;background-color: #800000}
+/*Styles for 4 btns*/
+
   /*Styles for footer*/
 
  footer{padding-bottom:32px;position:relative;min-height:200px;min-width:320px;margin-top:100px;background:#1b1b1b}
@@ -506,3 +513,11 @@ color: #9c7a58;
 .img-history{width: 65%;padding: 20px 0}
 .figure-history{text-align: center;margin-bottom: 30px}
 /*Styles for history.html*/
+
+/*Styles for photoshoot.html*/
+.main-title-photoshoot{text-align: center;margin-top: 30px;}
+.heading-photoshoot{margin: 30px 0 10px 0;}
+.wrapper-quote-photoshoot{display: flex;justify-content: end;}
+.wrapper-quote-photoshoot .quote-photoshoot{width: 320px;text-align: right;padding-right: 30px;}
+.text-photoshoot{padding: 0 20px;}
+/*Styles for photoshoot.html*/
